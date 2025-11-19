@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723CAAE12ECDC11100B36345 /* YellowRacerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CAADF2ECDC11100B36345 /* YellowRacerApp.swift */; };
+		723CAAE22ECDC11100B36345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723CAADC2ECDC11100B36345 /* Preview Assets.xcassets */; };
+		723CAAE32ECDC11100B36345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723CAADE2ECDC11100B36345 /* Assets.xcassets */; };
+		723CAAEE2ECDC1F000B36345 /* YRLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CAAEB2ECDC1F000B36345 /* YRLaunchView.swift */; };
+		723CAAEF2ECDC1F000B36345 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CAAE62ECDC1F000B36345 /* Color+Extensions.swift */; };
+		723CAAF02ECDC1F000B36345 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CAAE52ECDC1F000B36345 /* View+Extensions.swift */; };
+		723CAAF12ECDC1F000B36345 /* YRHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CAAE92ECDC1F000B36345 /* YRHomeWebView.swift */; };
+		723CAAF22ECDC1F000B36345 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CAAE72ECDC1F000B36345 /* ShapeStyle+Extensions.swift */; };
+		B801D568B21FEB57163E80D6 /* Pods_YellowRacer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0878D509C4F187D692B9C6 /* Pods_YellowRacer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18F017F227A4724A3CE46B0F /* Pods-YellowRacer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowRacer.release.xcconfig"; path = "Target Support Files/Pods-YellowRacer/Pods-YellowRacer.release.xcconfig"; sourceTree = "<group>"; };
+		5CC113C03393347D8A04D149 /* Pods-YellowRacer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowRacer.debug.xcconfig"; path = "Target Support Files/Pods-YellowRacer/Pods-YellowRacer.debug.xcconfig"; sourceTree = "<group>"; };
+		723CAACA2ECDC0E800B36345 /* YellowRacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YellowRacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		723CAADC2ECDC11100B36345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		723CAADE2ECDC11100B36345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		723CAADF2ECDC11100B36345 /* YellowRacerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowRacerApp.swift; sourceTree = "<group>"; };
+		723CAAE52ECDC1F000B36345 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		723CAAE62ECDC1F000B36345 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		723CAAE72ECDC1F000B36345 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		723CAAE92ECDC1F000B36345 /* YRHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRHomeWebView.swift; sourceTree = "<group>"; };
+		723CAAEB2ECDC1F000B36345 /* YRLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRLaunchView.swift; sourceTree = "<group>"; };
+		723CAAF32ECDC22100B36345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CD0878D509C4F187D692B9C6 /* Pods_YellowRacer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YellowRacer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723CAAC72ECDC0E800B36345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B801D568B21FEB57163E80D6 /* Pods_YellowRacer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ACC8A1F8000DCEC748F8342 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CC113C03393347D8A04D149 /* Pods-YellowRacer.debug.xcconfig */,
+				18F017F227A4724A3CE46B0F /* Pods-YellowRacer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1FB3474BDF56DE979B25D226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0878D509C4F187D692B9C6 /* Pods_YellowRacer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		723CAAC12ECDC0E800B36345 = {
+			isa = PBXGroup;
+			children = (
+				723CAAE02ECDC11100B36345 /* YellowRacer */,
+				723CAACB2ECDC0E800B36345 /* Products */,
+				1ACC8A1F8000DCEC748F8342 /* Pods */,
+				1FB3474BDF56DE979B25D226 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		723CAACB2ECDC0E800B36345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723CAACA2ECDC0E800B36345 /* YellowRacer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		723CAADD2ECDC11100B36345 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				723CAADC2ECDC11100B36345 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		723CAAE02ECDC11100B36345 /* YellowRacer */ = {
+			isa = PBXGroup;
+			children = (
+				723CAAF32ECDC22100B36345 /* Info.plist */,
+				723CAAE82ECDC1F000B36345 /* Extensions */,
+				723CAAED2ECDC1F000B36345 /* Screens */,
+				723CAAE42ECDC11400B36345 /* App */,
+				723CAADD2ECDC11100B36345 /* Preview Content */,
+				723CAADE2ECDC11100B36345 /* Assets.xcassets */,
+			);
+			path = YellowRacer;
+			sourceTree = "<group>";
+		};
+		723CAAE42ECDC11400B36345 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				723CAADF2ECDC11100B36345 /* YellowRacerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		723CAAE82ECDC1F000B36345 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				723CAAE52ECDC1F000B36345 /* View+Extensions.swift */,
+				723CAAE62ECDC1F000B36345 /* Color+Extensions.swift */,
+				723CAAE72ECDC1F000B36345 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		723CAAEA2ECDC1F000B36345 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				723CAAE92ECDC1F000B36345 /* YRHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		723CAAEC2ECDC1F000B36345 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				723CAAEB2ECDC1F000B36345 /* YRLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		723CAAED2ECDC1F000B36345 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				723CAAEA2ECDC1F000B36345 /* HomeWebScreen */,
+				723CAAEC2ECDC1F000B36345 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		723CAAC92ECDC0E800B36345 /* YellowRacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723CAAD92ECDC0E900B36345 /* Build configuration list for PBXNativeTarget "YellowRacer" */;
+			buildPhases = (
+				F043F345B4C6D566F96CC0A3 /* [CP] Check Pods Manifest.lock */,
+				723CAAC62ECDC0E800B36345 /* Sources */,
+				723CAAC72ECDC0E800B36345 /* Frameworks */,
+				723CAAC82ECDC0E800B36345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YellowRacer;
+			productName = YellowRacer;
+			productReference = 723CAACA2ECDC0E800B36345 /* YellowRacer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		723CAAC22ECDC0E800B36345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					723CAAC92ECDC0E800B36345 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 723CAAC52ECDC0E800B36345 /* Build configuration list for PBXProject "YellowRacer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 723CAAC12ECDC0E800B36345;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 723CAACB2ECDC0E800B36345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				723CAAC92ECDC0E800B36345 /* YellowRacer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		723CAAC82ECDC0E800B36345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723CAAE22ECDC11100B36345 /* Preview Assets.xcassets in Resources */,
+				723CAAE32ECDC11100B36345 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F043F345B4C6D566F96CC0A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YellowRacer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723CAAC62ECDC0E800B36345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723CAAE12ECDC11100B36345 /* YellowRacerApp.swift in Sources */,
+				723CAAEE2ECDC1F000B36345 /* YRLaunchView.swift in Sources */,
+				723CAAEF2ECDC1F000B36345 /* Color+Extensions.swift in Sources */,
+				723CAAF02ECDC1F000B36345 /* View+Extensions.swift in Sources */,
+				723CAAF12ECDC1F000B36345 /* YRHomeWebView.swift in Sources */,
+				723CAAF22ECDC1F000B36345 /* ShapeStyle+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		723CAAD72ECDC0E900B36345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		723CAAD82ECDC0E900B36345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		723CAADA2ECDC0E900B36345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC113C03393347D8A04D149 /* Pods-YellowRacer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YellowRacer/Preview Content\"";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YellowRacer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yellow Racer";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solkovalproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		723CAADB2ECDC0E900B36345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F017F227A4724A3CE46B0F /* Pods-YellowRacer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YellowRacer/Preview Content\"";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YellowRacer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yellow Racer";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solkovalproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		723CAAC52ECDC0E800B36345 /* Build configuration list for PBXProject "YellowRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723CAAD72ECDC0E900B36345 /* Debug */,
+				723CAAD82ECDC0E900B36345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723CAAD92ECDC0E900B36345 /* Build configuration list for PBXNativeTarget "YellowRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723CAADA2ECDC0E900B36345 /* Debug */,
+				723CAADB2ECDC0E900B36345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 723CAAC22ECDC0E800B36345 /* Project object */;
+}
